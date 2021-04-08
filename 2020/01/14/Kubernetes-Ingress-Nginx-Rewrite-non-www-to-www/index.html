@@ -7,6 +7,9 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="Background由于近期项目都开始面向全球用户，开始将前端部署配置起 CDN，踩了很多坑，这里记录一下关于 @ 域名 CNAME 解析与 MX 邮箱冲突的问题。 一般做法是直接将 @ 使用 A 解析到 IP，但这样就没法使用 CDN 了。 这是一个普遍存在的问题，参考 阿里云文档：  按照RFC标准协议CNAME优先级最高，所以在解析请求过程中，会优先返回CNAME解析记录结果，这样设置的结果">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Benjamin Says">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Kubernetes Ingress Nginx Rewrite non-www to www">
 <meta property="og:url" content="https://benwk.com/2020/01/14/Kubernetes-Ingress-Nginx-Rewrite-non-www-to-www/index.html">
